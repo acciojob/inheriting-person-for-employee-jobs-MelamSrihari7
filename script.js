@@ -17,6 +17,14 @@ class Employee extends Person {
     }
 
 }
+const person = new Person("Alice", 25);
+person.greet();
+// Expected Output: Hello, my name is Alice, I am 25 years old.
+
+// Creating an instance of Employee
+const employee = new Employee("Bob", 30, "Manager");
+employee.jobGreet();
+
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
